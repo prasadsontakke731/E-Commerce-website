@@ -3,9 +3,9 @@ const NewArrivels = () => {
   return (
     <>
       <div className='row mt-4'>
-        {PRODUCTS1.slice(1, 5).map((product) => (
+        {PRODUCTS1.slice(3, 7).map((product) => (
           <div
-            className='col-3 col-md-6 col-lg-3 col-sm-6 col-12'
+            className='col-3 col-md-6 col-lg-3 col-sm-6 col-12 mb-3'
             key={product.id}
           >
             <div key={product.id}>

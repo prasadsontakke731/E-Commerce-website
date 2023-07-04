@@ -2,14 +2,14 @@ import { PRODUCTS } from './Products';
 const FeaturedProducts = () => {
   return (
     <>
-      <div className='row '>
+      <div className='row'>
         {PRODUCTS.slice(1, 5).map((product) => (
           <div
-            className='col-3 col-md-6 col-lg-3 col-sm-6 col-12'
+            className='col-3 col-md-6 col-lg-3 col-sm-6 col-12 mb-3'
             key={product.id}
           >
             <div key={product.id}>
-              <div className='card h-100 m-auto p-3'>
+              <div className='card featured-card  h-100 m-auto p-3'>
                 <img
                   src={product.image}
                   alt=''

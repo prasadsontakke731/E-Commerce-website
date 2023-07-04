@@ -1,8 +1,3 @@
-import { AiFillTwitterCircle } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
-import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
-// import Google from '../assets/images/pay/googlePlay.png';
-
 const Contact = () => {
   return (
     <>
@@ -23,7 +18,6 @@ const Contact = () => {
               <div className='map card m-auto embed-responsive embed-responsive-16by9'>
                 <iframe
                   src='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d269570.82302665734!2d75.26290618361391!3d17.64386237285981!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shi!2sin!4v1688131003480!5m2!1shi!2sin'
-                  allowfullscreen=''
                   loading='lazy'
                   referrerPolicy='no-referrer-when-downgrade'
                 ></iframe>

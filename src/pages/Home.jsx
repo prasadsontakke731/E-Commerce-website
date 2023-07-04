@@ -50,7 +50,7 @@ const Home = () => {
           <div className='row'>
             <div className='col-12 text-center'>
               <h1>Featured Products</h1>
-              <p>All Weather New Modern Designs</p>
+              <p className='mb-5'>All Weather New Modern Designs</p>
             </div>
             <FeaturedProducts />
           </div>
@@ -64,7 +64,9 @@ const Home = () => {
               <h2 className='mb-3 text-white'>
                 On 70% Off on All Products And Accessories
               </h2>
-              <button>Explore Now</button>
+              <Link to={'/shop'}>
+                <button>Explore Now</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -82,18 +84,18 @@ const Home = () => {
       </section>
       <section className='deals p-5'>
         <div className='container-xxl'>
-          <div className='row'>
+          <div className='row '>
             <div className='col-6 col-sm-12 col-12 p-4'>
               <div className='card border-black'>
-                <div className='d-flex'>
-                  <div className='col-md-4'>
+                <div className='d-flex deals-card'>
+                  <div className='col-md-4 clo-sm-6 '>
                     <img
                       src={Img1}
                       alt=''
-                      className='img-fluid rounded-start h-100 p-2'
+                      className='img-fluid rounded-start h-100 w-100 p-2'
                     />
                   </div>
-                  <div className='col-md-8'>
+                  <div className='col-md-8 col-sm-6 '>
                     <div className='card-body'>
                       <span>Hot Deals</span>
                       <h3 className='card-title'>Buy One get One Free</h3>
@@ -110,15 +112,15 @@ const Home = () => {
             </div>
             <div className='col-6 col-sm-12 col-12 p-4'>
               <div className='card border-black'>
-                <div className='d-flex'>
-                  <div className='col-md-4 '>
+                <div className='d-flex deals-card'>
+                  <div className='col-md-4 deals-card col-sm-6'>
                     <img
                       src={Img2}
                       alt=''
-                      className='img-fluid rounded-start h-100 p-2'
+                      className='img-fluid rounded-start h-100 w-100 p-2'
                     />
                   </div>
-                  <div className='col-md-8'>
+                  <div className='col-md-8 deals-card col-sm-6'>
                     <div className='card-body'>
                       <span>Hot Deals</span>
                       <h3 className='card-title'>Buy One get One Free</h3>
@@ -142,7 +144,9 @@ const Home = () => {
           <div className='row'>
             <div className='text-center mb-3'>
               <h1>What Our Custmer Says...</h1>
-              <p>Our Custmer never miss a bit on providing feedback</p>
+              <p className='p-2'>
+                Our Custmer never miss a bit on providing feedback
+              </p>
             </div>
             <Blog />
           </div>

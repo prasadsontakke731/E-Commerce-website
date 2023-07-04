@@ -11,8 +11,8 @@ const Hero = () => {
           <div className='row'>
             <div className='col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 hero-details'>
               <div className='row g-4 justify-content-center justify-content-md-between align-items-center'>
-                <div className='col-6 col-md-4 col-lg-2'>
-                  <div className='card text-center m-auto'>
+                <div className='col-6 hero-card  col-md-4 col-lg-2'>
+                  <div className='card  text-center m-auto'>
                     <img
                       src={icon1}
                       className='card-img-top img-fluid m-auto'
@@ -24,7 +24,7 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <div className='col-6 col-md-4 col-lg-2'>
+                <div className='col-6 hero-card col-md-4 col-lg-2'>
                   <div className='card text-center m-auto'>
                     <img
                       src={icon2}
@@ -37,7 +37,7 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <div className='col-6 col-md-4 col-lg-2'>
+                <div className='col-6 hero-card col-md-4 col-lg-2'>
                   <div className='card text-center m-auto'>
                     <img
                       src={icon3}
@@ -50,7 +50,7 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <div className='col-6 col-md-4 col-lg-2'>
+                <div className='col-6 hero-card col-md-4 col-lg-2'>
                   <div className='card text-center m-auto'>
                     <img
                       src={icon4}
@@ -63,7 +63,7 @@ const Hero = () => {
                   </div>
                 </div>
 
-                <div className='col-6 col-md-4 col-lg-2'>
+                <div className='col-6 hero-card col-md-4 col-lg-2'>
                   <div className='card text-center m-auto'>
                     <img
                       src={icon5}

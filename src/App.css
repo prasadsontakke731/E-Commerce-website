@@ -115,6 +115,9 @@ input:focus {
 .cart-span-one {
   position: relative;
 }
+.card:hover {
+  cursor: pointer;
+}
 
 .cart-span-one span {
   position: absolute;
@@ -248,7 +251,17 @@ input:focus {
 .hero .hero-details img {
   width: 50px;
 }
-
+@media screen and (max-width: 730px) {
+  .hero-card {
+    padding: 10px;
+  }
+  .hero-card img {
+    padding-top: 20px;
+  }
+  .card {
+    margin: 5px;
+  }
+}
 .featured-products button {
   align-items: center;
   transition: 0.5s ease;
@@ -418,7 +431,7 @@ input:focus {
 }
 
 .new-arrivals .card:hover {
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
 }
 .hot-deals .card {
   padding: 12px 10px;
@@ -441,6 +454,19 @@ input:focus {
   color: var(--search);
   border: 1px solid var(--darker);
 }
+@media screen and (max-width: 760px) {
+  .deals-card {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 610px) {
+  .deals-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
+}
 
 .blogs .card img {
   width: 20rem;
@@ -457,6 +483,17 @@ input:focus {
   background: transparent;
   color: var(--search);
   border: 1px solid var(--darker);
+}
+@media screen and (max-width: 810px) {
+  .blog-detail {
+    background-color: #e58080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-detail .blog-detail-image {
+    width: 100%;
+  }
 }
 
 .news-letter {
@@ -534,7 +571,15 @@ footer .footer-tel {
 footer .footer-tel:hover {
   color: var(--primary1);
 }
-
+@media screen and (max-width: 780px) {
+  .blog-page {
+    background-color: #29fdba;
+    margin-bottom: 10px;
+  }
+  .blog-page {
+    display: flex;
+  }
+}
 /* shop starts here */
 .shop-banner {
   background: url(/src/assets/images/banner/b1.jpg);
@@ -871,6 +916,14 @@ footer .footer-tel:hover {
 .slide img {
   width: 5rem;
   margin: 0 20px;
+}
+@media screen and (max-width: 780px) {
+  .about-us .card-text {
+    color: red;
+  }
+  .abouts .card-text {
+    color: red;
+  }
 }
 /* about ends here */
 

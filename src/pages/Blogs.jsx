@@ -32,11 +32,11 @@ const Blogs = () => {
             </div>
             <div className='col-12 p-5'>
               <div className='card mb-3'>
-                <div className='row g-0'>
+                <div className='row g-0 blog-detail'>
                   <div className='col-md-4'>
                     <img
                       src={b1}
-                      className='img-fluid rounded-start'
+                      className='img-fluid rounded-start blog-detail-image'
                       alt='...'
                     />
                   </div>
@@ -61,9 +61,13 @@ const Blogs = () => {
             </div>
             <div className='col-12 p-5'>
               <div className='card mb-3'>
-                <div className='row g-0'>
+                <div className='row g-0 blog-detail'>
                   <div className='col-md-4'>
-                    <img src={b2} alt='' className='img-fluid rounded-start' />
+                    <img
+                      src={b2}
+                      alt=''
+                      className='img-fluid rounded-start blog-detail-image'
+                    />
                   </div>
                   <div className='col-md-6'>
                     <div className='card-body'>
@@ -88,9 +92,13 @@ const Blogs = () => {
 
             <div className='col-12 p-5'>
               <div className='card mb-3'>
-                <div className='row g-0'>
+                <div className='row g-0 blog-detail'>
                   <div className='col-md-4'>
-                    <img src={b3} alt='' className='img-fluid rounded-start' />
+                    <img
+                      src={b3}
+                      alt=''
+                      className='img-fluid rounded-start blog-detail-image'
+                    />
                   </div>
                   <div className='col-md-6'>
                     <div className='card-body'>
@@ -115,9 +123,13 @@ const Blogs = () => {
 
             <div className='col-12 p-5'>
               <div className='card mb-3'>
-                <div className='row g-0'>
+                <div className='row g-0 blog-detail'>
                   <div className='col-md-4'>
-                    <img src={b4} alt='' className='img-fluid rounded-start' />
+                    <img
+                      src={b4}
+                      alt=''
+                      className='img-fluid rounded-start blog-detail-image'
+                    />
                   </div>
                   <div className='col-md-6'>
                     <div className='card-body'>
@@ -141,9 +153,13 @@ const Blogs = () => {
             </div>
             <div className='col-12 p-5'>
               <div className='card mb-3'>
-                <div className='row g-0'>
+                <div className='row g-0 blog-detail'>
                   <div className='col-md-4'>
-                    <img src={b2} alt='' className='img-fluid rounded-start' />
+                    <img
+                      src={b2}
+                      alt=''
+                      className='img-fluid rounded-start blog-detail-image'
+                    />
                   </div>
                   <div className='col-md-6'>
                     <div className='card-body'>
