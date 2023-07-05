@@ -28,7 +28,7 @@ const ProductDetails = () => {
     <>
       <div className='container p-5'>
         <div className='row'>
-          <div className='col-lg-6'>
+          <div className='col-lg-6 product-details-img'>
             <div className='card p-5 m-auto'>
               <img
                 src={product.image}
@@ -37,10 +37,9 @@ const ProductDetails = () => {
               />
             </div>
           </div>
-
-          <div className='col-lg-6'>
+          <div className='col-lg-6 product-details-text'>
             <div className='card p-3 m-auto'>
-              <div className='card-body'>
+              <div className='card-body product-details-body'>
                 <h5 className='card-title'>{product.brand}</h5>
                 <h3 className='card-text'>{product.name}</h3>
                 <p className='card-text'>
@@ -57,7 +56,7 @@ const ProductDetails = () => {
                   aut quod et sint facere reprehenderit?
                 </p>
 
-                <div className='d-flex align-items-center mb-3 col-6'>
+                <div className='d-flex align-items-center btn mb-3 col-6'>
                   <button
                     className='btn btn-outline-secondary me-2'
                     onClick={() => addToCart(product.id)}
@@ -65,7 +64,7 @@ const ProductDetails = () => {
                     +
                   </button>
                   <input
-                    className='form-control text-center'
+                    className='form-control text-center text-black'
                     type='number'
                     value={cartItems[product.id]}
                     onChange={(e) =>
@@ -95,7 +94,7 @@ const ProductDetails = () => {
                 </div>
               </div>
             </div>
-            <div className='card'>
+            <div className='card my-5 p-5'>
               <div className='d-flex justify-content-center flex-column align-items-center'>
                 <h2 className='text-center mb-2'>More products of the same</h2>
                 <p className='mb-2'>
